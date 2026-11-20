@@ -1,0 +1,74 @@
+baseURL = "https://resteepmod.github.io/"
+locale = "en"
+title = "ReSteep"
+theme = "hugo-book"
+enableGitInfo = true
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true    # Hugo Book's shortcodes (tabs, details, mermaid) emit HTML
+  [markup.goldmark.parser.attribute]
+    block = true
+    title = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+  [markup.highlight]
+    style = "github"
+
+[menu]
+  [[menu.home]]
+    name = "Get started"
+    pageRef = "/docs/get-started"
+    weight = 10
+  [[menu.home]]
+    name = "Mods"
+    pageRef = "/docs/mods"
+    weight = 20
+  [[menu.home]]
+    name = "Make mods"
+    pageRef = "/docs/modding"
+    weight = 30
+  [[menu.home]]
+    name = "Host a server"
+    pageRef = "/docs/hosting"
+    weight = 40
+  [[menu.home]]
+    name = "GitHub"
+    url = "https://github.com/resteepMod"
+    weight = 50
+
+  [[menu.after]]
+    name = "ReSteep on GitHub"
+    url = "https://github.com/resteepMod/ReSteep"
+    weight = 10
+  [[menu.after]]
+    name = "Official mods"
+    url = "https://github.com/resteepMod/official-mods"
+    weight = 20
+  [[menu.after]]
+    name = "Report a problem"
+    url = "https://github.com/resteepMod/ReSteep/issues"
+    weight = 30
+
+[params]
+  description = "ReSteep keeps your copy of Steep playable on servers run by its players, and makes it moddable."
+  BookTheme = "auto"
+  BookToC = true
+  BookBreadcrumbs = true
+  BookLogo = "logo.svg"
+  BookSection = "docs"
+  BookRepo = "https://github.com/resteepMod/resteepmod.github.io"
+  BookEditLink = "{{ .Site.Params.BookRepo }}/edit/main/content/{{ .Path }}"
+  BookLastChangeLink = "{{ .Site.Params.BookRepo }}/commit/{{ .GitInfo.Hash }}"
+  BookDateFormat = "2 January 2006"
+  BookSearch = true
+  BookPortableLinks = "warning"
+
+  # Links used on several pages (shortcode `link`).
+  repo = "https://github.com/resteepMod/ReSteep"
+  releases = "https://github.com/resteepMod/ReSteep/releases"
+  issues = "https://github.com/resteepMod/ReSteep/issues"
+  officialMods = "https://github.com/resteepMod/official-mods"

@@ -1,0 +1,6 @@
+{{- /* The landing page's top: the logo, the name and a tagline (the shortcode's inner text). */ -}}
+<div class="rs-hero">
+  <img src="{{ "logo.svg" | relURL }}" alt="" width="120" height="120">
+  <h1>{{ site.Title }}</h1>
+  <p class="rs-tagline">{{ .Inner | .Page.RenderString }}</p>
+</div>

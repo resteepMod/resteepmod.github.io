@@ -1,0 +1,46 @@
+/* ReSteep's colours on top of Hugo Book: an alpine blue for links, the logo kept readable in both themes. */
+:root,
+:root[data-theme="light"],
+:root[data-theme="auto"] {
+  --color-link: #1b63c6;
+  --color-visited-link: #1b63c6;
+}
+
+:root[data-theme="dark"] {
+  --color-link: #7cb2ff;
+  --color-visited-link: #7cb2ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="auto"] {
+    --color-link: #7cb2ff;
+    --color-visited-link: #7cb2ff;
+  }
+}
+
+/* The logo is dark on a white tile: give it a soft edge so it sits well on the dark background too. */
+.book-brand img {
+  border-radius: 22%;
+  box-shadow: 0 0 0 1px rgba(127, 127, 127, 0.25);
+}
+
+/* Landing page */
+.rs-hero {
+  text-align: center;
+  padding: 2rem 0 1rem;
+}
+.rs-hero img {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 22%;
+  box-shadow: 0 0 0 1px rgba(127, 127, 127, 0.25);
+}
+.rs-hero .rs-tagline {
+  font-size: 1.25rem;
+  max-width: 36rem;
+  margin: 0.5rem auto 1.5rem;
+  opacity: 0.85;
+}
+.rs-hero .book-btn {
+  margin: 0.25rem;
+}
