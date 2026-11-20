@@ -17,8 +17,11 @@ Run the check once:
 - **Linux:** **Settings → Setup & repair**, **Your DLCs → Check my add-ons**.
 
 Ubisoft Connect opens on its own, without ReSteep. Sign in to your **real Ubisoft account** there and close it.
-ReSteep then reads which Steep add-ons that account owns from Connect's files. It never sees your password and keeps
-only the list of add-ons.
+ReSteep then reads from Connect's files whether that account owns Steep and which Steep add-ons. It never sees your
+password and keeps only that list.
+
+The check is also what [sharing your server over the internet](../hosting/internet.md) needs: ReSteep shares a server
+outside your network only once a check found Steep on your Ubisoft account (Steam or Ubisoft Connect).
 
 Close Ubisoft Connect before the check.
 

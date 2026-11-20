@@ -18,7 +18,7 @@ and Lua mods. Powder's parts keep their names inside ReSteep: the server is stil
 | **Launcher** | Powder's own window | ReSteep's window (from BlueBird): Play, Mods, Server and Settings pages, the same on Windows and Linux |
 | **Linux** | Built from the source code | One AppImage, nothing to build; the session itself works as before |
 | **Accounts** | One account, registered in Powder's launcher | Your own account per server: the first time you join one, you create it or sign in with one you have there |
-| **In-game menu** | Powder's overlay (admin, trainer, client mods) | One menu (**N** or **Home**) with Powder's pages and BlueBird's: gameplay and world settings, Lua mods, profile, servers |
+| **In-game menu** | Powder's overlay (admin, movement tools, client mods) | One menu (**N** or **Home**) with Powder's pages and BlueBird's: gameplay and world settings, Lua mods, profile, servers |
 | **Mods** | Server mods, client DLLs, asset mods | Also sandboxed Lua mods in the game, content mods (items, maps, challenges, music, animations), the `.resteep` format, and the launcher's Official tab |
 | **Challenge rewards** | Needed the game-data pack | Paid from the game's own reward packs, no pack needed |
 | **Your data** | `%LOCALAPPDATA%\Powder` | `%LOCALAPPDATA%\ReSteep` |

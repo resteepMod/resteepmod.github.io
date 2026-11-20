@@ -15,7 +15,7 @@ Windows and on Linux (switch it off under **Settings → Linux → In-game menu*
 | --- | --- |
 | **Gameplay** | Jump gravity, terminal velocity and more of the riding's values. These apply to this PC only. |
 | **World** | The time of day, how fast time runs, and the world's presets (seasons). |
-| **Trainer** | **Fly** with noclip, a teleport spot, and saved positions. |
+| **Movement** | **Fly** with noclip, a teleport spot, and saved positions. |
 | **Mods** | Your mods: switch them on and off, their settings, panels and errors, and a console for mod makers: [Mods in the game](../mods/_index.md#in-the-game-the-mods-page). |
 | **Profile** | Your player on the server. |
 | **Server** | The servers you can join, and your own: [Playing with friends](multiplayer.md). |

@@ -26,7 +26,7 @@ flowchart LR
 | **Server** (`powder-server`, Rust) | One program that answers the game and Ubisoft Connect: the UbiServices HTTPS API for all `*.ubi.com` hosts, the Quazal NEX online-session server, Ubisoft Connect's demux protocol and the Storm peer-to-peer helpers. Players, progress and mods' data live in SQLite. |
 | **Launcher** (Python) | The ReSteep window. It checks and sets up what a start needs, starts Ubisoft Connect and Steep against the server, and manages mods and the local server. |
 | **TLS helper** (native) | Makes the game accept the server's certificate, and only that one. |
-| **In-game menu** (native, Dear ImGui) | The menu inside Steep, the Lua mods' host and the trainer. |
+| **In-game menu** (native, Dear ImGui) | The menu inside Steep, the Lua mods' host and the movement tools. |
 | **Linux session** (`powder-wrap`) | Runs Ubisoft Connect and Steep for one session in a private network under Wine or Proton, changing nothing on the system. |
 
 ReSteep continues **Powder** (the server, the Linux session, the TLS helper and the tools, which keep that name:

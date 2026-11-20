@@ -65,6 +65,39 @@ exists:
 
 ReSteep's mod checks refuse packages that break rules 1 and 2 where they can tell.
 
+## Ubisoft's terms
+
+Ubisoft's [Terms of Use](https://www.ubisoft.com/legal/documents/termsofuse/en-US) (January 2026) and the licence
+agreement for its games ([EULA](https://www.ubisoft.com/legal/documents/eula/en-US), January 2023) forbid much of what
+ReSteep does. Among other things, they forbid:
+
+- creating, providing or using unauthorised private servers, server emulators and alternative launchers, and getting
+  around security checks or copy protection (Terms 7.3.5, EULA 1.3);
+- reverse engineering, decompiling or changing the game (EULA 1.2);
+- trainers, scripts and other cheat programs, in single-player too (EULA 1.2, Terms 7.3.4);
+- capturing the game's network traffic (Terms 7.3.6).
+
+They also say that Ubisoft owns what is made from its games' content (Terms 10.1), and that Ubisoft can suspend or
+close an account for breaking them, also for what its owner does outside Ubisoft's services (Terms 7.5, 8.2). The
+game's anti-cheat may tell Ubisoft about programs it finds in the game's memory (EULA 4).
+
+**What that means for you.** You use ReSteep at the risk of your Ubisoft account, and a closed account loses every
+game on it, not only Steep. Where you live may limit what such terms can forbid and how they are enforced (consumer
+law, the right to make programs work with each other). This page makes no legal claim either way.
+
+**What ReSteep does about it:**
+
+- **It stays apart from Ubisoft's services.** In a ReSteep session, Steep and Ubisoft Connect sign in to a ReSteep
+  server, not to Ubisoft. ReSteep's in-game menu and hooks load only in a ReSteep session: on Windows the launcher
+  attaches them when it starts the game, and on Linux its helper does nothing outside a session. When you start Steep
+  through Ubisoft Connect or Steam, none of ReSteep's code runs in it.
+- **It needs a copy you own.** ReSteep starts your installed game. Paid add-ons unlock only for their owners, and a
+  server is shared over the internet only once a check found Steep on the host's Ubisoft account.
+- **The add-on check** runs Ubisoft Connect on its own, without ReSteep, and only reads which Steep products your
+  account owns.
+- **No game data** in ReSteep or in shared mods (above).
+- **Nothing is sold.** ReSteep is free. Don't sell access to a server, accounts, mods, or anything made from the game.
+
 ## No warranty
 
 ReSteep comes with no warranty, to the extent permitted by law. Running a replacement server, redirecting Ubisoft's

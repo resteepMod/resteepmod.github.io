@@ -15,6 +15,9 @@ over the internet: your router passes one port on to your PC, and ReSteep shows 
   (carrier-grade NAT, CGNAT); then a port forward can't work. Signs of it: the internet address ReSteep shows differs
   from the address your router's status page shows, or the router's address starts with `100.64` to `100.127`. Ask
   your provider for a public IPv4 address, or use a [VPN instead](#with-a-vpn-instead).
+- **Your own copy of Steep.** Run [Check my add-ons](../get-started/dlc.md) once with the Ubisoft account that
+  owns Steep (Steam or Ubisoft Connect). Until a check found it, ReSteep keeps your server on your own network and
+  the Server page says so.
 - **One port, TCP and UDP:** the **Port** on the Server page (443 by default on Windows, 8443 on Linux).
 
 ## Set it up

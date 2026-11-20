@@ -7,7 +7,7 @@ weight: 20
 
 ## Credits
 
-- **Powder**: the server, the Linux session and launcher, the TLS helper, the overlay and trainer, and the
+- **Powder**: the server, the Linux session and launcher, the TLS helper, the overlay and its movement tools, and the
   forge, item and world tools. By Toemmsen96 and SomeRandomNiko
   ([Toemmsen96/powder](https://github.com/Toemmsen96/powder)).
 - **BlueBird**, now ReSteep's launcher: the launcher window, the in-game menu, Lua mods, content mods and the item
