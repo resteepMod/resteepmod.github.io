@@ -48,10 +48,13 @@ the local server and closes the Ubisoft Connect that ReSteep started. Your saves
 ReSteep can show your Discord friends what you are doing: "In the launcher", or "Riding the Alps" with the server's
 name. A server's address is never shown. Switch it off under **Settings → General → Discord Rich Presence**.
 
-## Undo everything (Windows)
+## What ReSteep leaves on Windows
 
-**Settings → Setup & repair → Undo everything** removes what any ReSteep version set up on this PC: hosts entries,
-certificates and firewall rules. It asks before each Windows prompt and only acts if something is there, so it is
-safe to run any time. Your progress is kept, and the next Play sets up again what it needs.
+Almost nothing. ReSteep changes no system files and adds no certificates to Windows: the Ubisoft names are pointed at
+the server inside Ubisoft Connect and Steep only, while ReSteep runs them. Close ReSteep and Connect talks to Ubisoft
+again.
 
-From a command prompt in the program's folder: `powder-cli.exe --status` shows what is set up, `--restore` undoes it.
+The one exception are **firewall rules**, added only when you host for others or join a server (Windows asks for
+admin rights). **Settings → Setup & repair → Undo everything** removes them; it only acts if they are there, so it is
+safe to run any time. From a command prompt in the program's folder, `powder-cli.exe --status` shows what is set up
+and `--restore` removes it.

@@ -31,7 +31,7 @@ flowchart LR
 
 ReSteep continues **Powder** (the server, the Linux session, the TLS helper and the tools, which keep that name:
 `powder-server`, `powder-wrap`, the `/_powder/` routes) and **BlueBird** (the launcher window, the in-game menu and
-Lua mods).
+Lua mods). What changed since Powder: [Coming from Powder](powder.md).
 
 ## Reaching the server instead of Ubisoft's
 

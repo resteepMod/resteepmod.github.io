@@ -20,8 +20,7 @@ Ubisoft Connect opens on its own, without ReSteep. Sign in to your **real Ubisof
 ReSteep then reads which Steep add-ons that account owns from Connect's files. It never sees your password and keeps
 only the list of add-ons.
 
-On Windows, the check needs Ubisoft Connect closed first, and ReSteep's older hosts-file entries removed if you
-still have them (**Undo everything** in Setup & repair).
+Close Ubisoft Connect before the check.
 
 ## Without the check
 

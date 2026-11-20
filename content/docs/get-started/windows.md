@@ -48,9 +48,11 @@ Press **N** (or **Home**) in the game to open ReSteep's menu; **Esc** closes it.
 game, choose another key under **Settings → General → Hotkeys → Open ReSteep menu**. More:
 [The in-game menu](../play/in-game-menu.md).
 
-## Undo and uninstall
+## Uninstall
 
-- **Settings → Setup & repair → Undo everything** removes what ReSteep set up on this PC. Ubisoft Connect then talks
-  to Ubisoft's servers again; the next Play sets everything up again. Your progress is kept.
-- **Uninstall** ReSteep in Windows Settings → Apps. It undoes what ReSteep set up on this PC and keeps your
-  progress, settings and mods unless you tick **Also delete my ReSteep data**.
+ReSteep changes nothing in Windows to play: Ubisoft Connect talks to ReSteep's server only while ReSteep starts it,
+and to Ubisoft's servers otherwise. The only thing it may add are firewall rules, when you host or join
+([What ReSteep leaves on Windows](../play/launcher.md#what-resteep-leaves-on-windows)).
+
+**Uninstall** ReSteep in Windows Settings → Apps. If you added firewall rules, it removes them first. Your progress,
+settings and mods are kept unless you tick **Also delete my ReSteep data**.
