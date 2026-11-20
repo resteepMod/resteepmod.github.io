@@ -1,5 +1,5 @@
 ---
-title: ReSteep
+title: Steep, kept alive by its players
 layout: landing
 ---
 
