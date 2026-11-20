@@ -16,8 +16,8 @@ their own accounts and progress.
 3. On the next Play, ReSteep offers to add the firewall rules the other PCs need. They allow only the local network,
    on networks Windows treats as private.
 
-On the same page you can set the server's **Name**, **Max players** and a **Password**, choose **Guest rights**, and
-**Kick** or **Ban** players.
+On the same page you can set the server's **Name**, **Max players**, a **Password** and the **Port** (443 by default;
+a new one offers to restart the server), choose **Guest rights**, and **Kick** or **Ban** players.
 
 ## Hosting on Linux
 

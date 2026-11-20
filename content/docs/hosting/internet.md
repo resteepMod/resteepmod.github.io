@@ -15,7 +15,7 @@ over the internet: your router passes one port on to your PC, and ReSteep shows 
   (carrier-grade NAT, CGNAT); then a port forward can't work. Signs of it: the internet address ReSteep shows differs
   from the address your router's status page shows, or the router's address starts with `100.64` to `100.127`. Ask
   your provider for a public IPv4 address, or use a [VPN instead](#with-a-vpn-instead).
-- **One port, TCP and UDP:** 443 on Windows, the port you chose on Linux (8443 by default).
+- **One port, TCP and UDP:** the **Port** on the Server page (443 by default on Windows, 8443 on Linux).
 
 ## Set it up
 
@@ -95,8 +95,8 @@ join with your PC's VPN address. Nothing is open to the internet then.
 - Check that the forward covers **TCP and UDP** and points at your PC's current address.
 - Try the address yourself from outside your network, for example from a phone on mobile data with a friend's help.
 - Look for CGNAT (above).
-- Some providers block incoming port 443. On Windows, choose another port with `https_port` under `[server]` in
-  `config.toml`, forward that one, and give friends the new address (ReSteep adds the port to it). On Linux, change
-  **Port** on the Server page.
+- Some providers block incoming port 443. Choose another **Port** on the Server page (from 1024 up), forward that
+  one instead, and give friends the new address: ReSteep adds the port to it. If the server runs, ReSteep offers to
+  restart it on the new port (or, while you play, uses it from the next Play).
 - A friend who sees "This server needs its server password" types the password you gave them; a changed password is
   asked again at their next Play.
