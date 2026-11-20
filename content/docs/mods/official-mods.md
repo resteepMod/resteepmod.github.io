@@ -17,7 +17,7 @@ then match between the server and every player.
 | Mod | On a server |
 | --- | --- |
 | ReSteep Park, ReSteep Hill, ReSteep Mountains | **Must match.** New maps; the server runs one of the three (they share one world slot). |
-| Master Chief Costume, ReSteep Boxes, Lua Hat Demo | **Must match.** New items: the server runs it and every player needs it. |
+| ReSteep Boxes, Lua Hat Demo | **Must match.** New items: the server runs it and every player needs it. |
 | Challenge Example | **Must match.** Challenges and their leaderboards. Keep its settings at the defaults on a server. |
 | Domino Playground, Domino Showcase, Example Script | **Must match.** Scripts placed in the maps; what they do happens to you only. |
 | FPV Drone | **Must match.** It places the drone in the Alps. The others see your rider standing still while you fly. |

@@ -40,7 +40,7 @@ When two mods replace the same texture or text, the later one wins and both show
 New wardrobe items with their own models and textures, and whole costumes. An item's id comes from the mod's id and
 the item's `key`, so it is the same on every PC: **keep both across versions**, since a save stores equipped items by
 id. A costume can also be **fitted from a download**: the build fits a rigged model the player downloaded onto
-Steep's skeleton (the official Master Chief costume works that way).
+Steep's skeleton on their PC, so the mod never passes the model on.
 
 Models come from Blender as glTF (`.glb`). The ReSteep repository's Blender add-on and `tools/forge/BLENDER.md`
 show how to start from a game item with its armature and weights.
