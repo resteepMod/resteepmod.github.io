@@ -32,10 +32,13 @@ Supported: the newest release and `main`. The updater moves players forward.
 
 - **Accounts.** Passwords are stored as scrypt hashes and never logged; sign-ins are rate-limited.
 - **The server process.** Size, connection and time limits on every protocol.
-- **Who may play.** Public mode, closed registration, a host password, a player limit, bans, the whitelist and kicks.
+- **Who may play.** A server password (without it, a guest can't make an account or sign in), closed registration, a
+  player limit, bans, the whitelist and kicks. Shared over the internet, the server accepts only tickets it issued.
 - **The host's powers.** Host settings and admin actions only from the server's own PC, with a token only the
   launcher that runs the server can read.
 - **The PC.** Server mods run in a Lua sandbox with memory and time limits.
+
+Sharing over the internet, step by step and what it exposes: [Over the internet](../hosting/internet.md).
 
 > [!CAUTION]
 > **Don't expose a server through a TCP tunnel that forwards to 127.0.0.1** (playit.gg, ngrok, frp, `ssh -R`) unless

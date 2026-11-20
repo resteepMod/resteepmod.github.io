@@ -18,9 +18,10 @@ logged; wrong passwords are rate-limited per address.
 - **Every other account**, and one registered from another PC, starts like a new Ubisoft account: level 1, an empty
   inventory and the server's `starting_credits`.
 
-Once accounts exist, every call that acts for a player needs that player's session, and a player changes only their
-own inventory, rider card, saves and photos. With `registration = "closed"` under `[players]`, only the host creates
-accounts.
+With a server password, a guest's PC must give it (ReSteep asks for it when they first join) before it can make an
+account or sign in. Once accounts exist, every call that acts for a player needs that player's session, and a player
+changes only their own inventory, rider card, saves and photos. With `registration = "closed"` under `[players]`, only
+the host creates accounts.
 
 ## Players who join
 

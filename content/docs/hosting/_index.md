@@ -44,15 +44,20 @@ firewall rule for Steep. A server behind a port forward that changes the number 
 
 ## Over the internet
 
-Hosting over the internet works like on a local network, with the port forwarded to your PC.
+To play with friends outside your network, switch on **Share over the internet** too, forward the port on your router
+and give them the address ReSteep shows. Choose **Private** (only who has the address) or **Public** (also in the
+community server list), and set a password. How, and what it means for security:
+[Over the internet](internet.md).
 
-> [!CAUTION]
-> A server reachable from the internet should set `public = true` under `[server]` in `config.toml`. Without it, the
-> server treats connections from its own PC as its owner. A loopback tunnel (playit, ngrok, frp, `ssh -R`) makes every
-> guest look like that, so **always set `public = true` when you expose a server through a tunnel.**
+## A password
+
+With a **Password** on the Server page, a guest's PC must give it before it can make an account, sign in or play.
+ReSteep asks your friends for it the first time they join and keeps it for your server. Change it and everyone is asked
+again.
 
 ## More
 
+- [Over the internet](internet.md): port forwarding, Private or Public, security.
 - [Accounts and players](accounts.md): who becomes which player, passwords, bringing your progress along.
 - [Administration](admin.md): server commands, bans, the whitelist, the admin page.
 - [News in Ubisoft Connect](news.md): your server's own news on Connect's start page.

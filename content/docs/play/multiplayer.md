@@ -40,6 +40,9 @@ The first time you play on a server, ReSteep asks for your account there:
 > **This is not a Ubisoft account.** It exists only on that ReSteep server, and Ubisoft never sees it. The email is
 > only your sign-in name there; no mail is sent to it. Don't reuse your real Ubisoft password.
 
+If the server has a password, the same window asks for it: the host gives it to you. ReSteep keeps it for that server
+and gives it again at every Play; if the host changes it, you are asked again.
+
 ReSteep keeps the account for that server and uses it from then on. Ubisoft Connect signs in with it by itself. If
 Connect asks anyway, type that email and password. If the host makes a new certificate, the server counts as a new
 one and you are asked again.
@@ -71,4 +74,5 @@ On a server, riders in the same area meet. Form a group by pressing **G** next t
 the social tab; spectating works too. Every other player on the server is your friend in the game. Leaderboards,
 shared rides, photos and player-made challenges are the server's: see [What works](features.md).
 
-To host for others, see [Hosting](../hosting/).
+To host for others, see [Hosting](../hosting/); for friends outside your network,
+[Over the internet](../hosting/internet.md).
